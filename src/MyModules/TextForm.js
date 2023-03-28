@@ -39,7 +39,7 @@ export default function TextForm() {
             <div className='container my-2'>
                 <h3>Your Text Summary</h3>
                 <p> {text.split(" ").length} Words and {text.length} Character</p>
-                <p>{0.08*text.split(" ").length} Minutes : You need to read below preview</p>
+                <p>{0.00420168*text.split(" ").length} Minutes : You need to read below preview</p>
             </div>
             <div className='container my-2'>
                 <h3>Preview</h3>
